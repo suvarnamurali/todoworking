@@ -37,7 +37,10 @@ class _LoginState extends State<Login> {
         },
         child: Scaffold(
           appBar: AppBar(
-            title: const Text('Login Screen'),
+            title: const Text(
+              'Login Screen',
+              style: TextStyle(fontFamily: 'ClimateCrisis'),
+            ),
           ),
           body: SafeArea(
               child: Column(

@@ -32,3 +32,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  fonts:
+    - family: ClimateCrisis
+      fonts:
+        - asset: assets/fonts/ClimateCrisis-Regular.ttf
+          style: italic
